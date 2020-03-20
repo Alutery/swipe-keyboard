@@ -16,10 +16,9 @@ let keyboard = new Keyboard({
       "{alt} {smileys} , {space} . {enter}"
     ],
     shift: [
-      "1 2 3 4 5 6 7 8 9 0",
-      "Q W E R T Y U I O P {bksp}",
-      "A S D F G H J K L {enter}",
-      "{shiftactivated} Z X C V B N M , . {shiftactivated}",
+      "Й Ц У К Е Н Г Ш Щ З {bksp}",
+      "Ф Ы В А П Р О Л Д Ж Э {enter}",
+      "{shiftactivated} Я Ч С М И Т Ь Б Ю {shiftactivated}",
       "{alt} {smileys} {space} {altright} {downkeyboard}"
     ],
     alt: [
