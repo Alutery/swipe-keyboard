@@ -18,11 +18,18 @@ let keyboard = new Keyboard({
       "{alt} {smileys} , {space} . {downkeyboard}"
     ],
     shift: [
+<<<<<<< HEAD
       "1 2 3 4 5 6 7 8 9 0",
       "Й Ц У К Е Н Г Ш Щ З {bksp}",
       "Ф Ы В А П Р О Л Д Ж Э {enter}",
       "{shiftactivated} Я Ч С М И Т Ь Б Ю {shiftactivated}",
       "{alt} {smileys} , {space} . {downkeyboard}"
+=======
+      "Й Ц У К Е Н Г Ш Щ З {bksp}",
+      "Ф Ы В А П Р О Л Д Ж Э {enter}",
+      "{shiftactivated} Я Ч С М И Т Ь Б Ю {shiftactivated}",
+      "{alt} {smileys} {space} {altright} {downkeyboard}"
+>>>>>>> 1337b4e7a604dc830c13d0a5502df26db4727015
     ],
     alt: [
       "1 2 3 4 5 6 7 8 9 0 `",
