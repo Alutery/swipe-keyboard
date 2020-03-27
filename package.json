@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public--url /parcel-gh-pages-deploy",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
@@ -21,5 +21,9 @@
   "devDependencies": {
     "gh-pages": "^2.2.0",
     "parcel-bundler": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alutery/swipe-keyboard.git"
   }
 }
